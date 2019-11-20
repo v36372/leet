@@ -27,5 +27,9 @@ func removeDuplicates(a []int) int {
 	return len(a)
 }
 func main() {
-	fmt.Println(removeDuplicates([]int{0, 0, 1, 1, 1, 1, 2, 2, 3, 3, 4, 4}))
+	a1 := []int{0, 0, 1, 1, 1, 1, 2, 2, 3, 3, 4, 4}
+	fmt.Println(removeDuplicates(a1), a1)
+
+	a2 := []int{0, 0, 1, 1, 1, 1, 2, 2, 3, 3, 4, 4}
+	fmt.Println(removeDuplicates2(a2), a2)
 }
